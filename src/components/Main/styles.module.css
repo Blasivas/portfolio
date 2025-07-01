@@ -7,9 +7,12 @@
   align-items: center;
 }
 
+
+
+
 main > section {
   /* border: 2px solid blue; */
-  width: 50%;
+  width: 55%;
   height: 100%;
   display: flex;
   align-items: center;
@@ -21,10 +24,13 @@ main > section {
 
   h1 {
     font-size: 3rem;
+    
   }
 
   p {
     font-size: 2rem;
+    filter: drop-shadow(0 0 8px #00d8ff);
+    animation: secondmove 3s ease-in-out;
   }
 
   img {
@@ -37,14 +43,18 @@ main > section {
     gap: 8px;
     list-style: none;
     align-items: center;
+    
   }
 
   ul li {
     padding: 10px;
+    
   }
 
   ul li:hover {
     transform: scale(1.5, 1.5);
+    filter: drop-shadow(0 0 8px #00d8ff);
+    
   }
 }
 
@@ -58,7 +68,7 @@ main > section {
     width: 15rem;
     height: max-content;
 
-    filter: drop-shadow(0 0 5px #00d8ff);
+    filter: drop-shadow(0 0 6px #00d8ff);
   }
 }
 
@@ -66,4 +76,13 @@ main > section {
   50% {
     transform: translateY(10px);
   }
+}
+
+
+@keyframes secondmove {
+
+    0% {
+
+    }
+    
 }
