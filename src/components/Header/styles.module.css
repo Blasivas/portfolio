@@ -1,0 +1,64 @@
+
+
+.header {
+    width: 100%;
+    
+    padding: 0.75rem;
+    background-color: black;
+    box-shadow: 5px cyan
+   
+}
+
+.header nav div a {
+    margin-left: 0.5rem;
+    font-size: 32px;
+    text-decoration: none;
+     color: #FFFF;
+
+    font-weight: bold;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.header nav ul {
+    text-decoration: none;
+    display: flex;
+    gap: 1rem;
+
+    
+}
+
+.header li {
+    list-style: none;
+     color: #FFFF;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+    padding: 3px;
+
+   
+    
+    
+
+   
+    
+
+}
+
+.selected {
+    border-bottom: 2px solid cyan;
+    transition: ease-in-out 500ms;
+   
+}
+
+
+
