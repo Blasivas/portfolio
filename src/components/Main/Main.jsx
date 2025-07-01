@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 export function Main() {
   return <main className = {styles.main} >
 
-    <section>
+    <section id='inicio'>
 
       <h1>
         João Gustavo
@@ -50,7 +50,7 @@ export function Main() {
 
     </section>
       
-      <div className={styles.image}>
+      <div className= {styles.image}>
 
         <img src="src/assets/react-logo.png" alt="icone react" />
 

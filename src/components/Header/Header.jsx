@@ -24,7 +24,7 @@ export function Header() {
           </li>
           </a>
           <a  style={active === "sobremim" ? {borderBottom : "2px solid cyan"} : null} onClick={() => setActive("sobremim")}    href="#sobremim"><li>
-            sobre mim
+            sobre
           </li>
           </a>
 

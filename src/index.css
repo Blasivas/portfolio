@@ -6,6 +6,7 @@
 
 html {
   font-family: "Poppins";
+  scroll-behavior: smooth;
 }
 
 .page {
@@ -19,3 +20,5 @@ html {
   align-items: center;
 
 }
+
+
