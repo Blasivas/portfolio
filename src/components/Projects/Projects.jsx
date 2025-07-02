@@ -4,6 +4,15 @@ import { ArrowRight } from "lucide-react";
 import movie from "../../assets/image-movie.png";
 import keeper from "../../assets/keeper.png";
 import event from "../../assets/event.png";
+import react from "../../assets/physics.png"
+import typescript from "../../assets/typescript.png"
+import html from "../../assets/html-5.png"
+import css from "../../assets/text.png"
+
+
+
+
+
 
 
 
@@ -92,11 +101,11 @@ export function Projects() {
                     <p style={{fontSize : "16px"}}>Stack utilizada:</p>
                     <div style={{display : "flex", marginTop :" 0.5rem"}}>
                         
-                        <img style={{width : 30, height : 30}} src="src/assets/physics.png" alt="" />
-                    <img style={{width : 30, height : 30}} src="src/assets/html-5.png" alt="" />
+                        <img style={{width : 30, height : 30}} src={react} alt="" />
+                    <img style={{width : 30, height : 30}} src={html} alt="" />
 
-                    <img style={{width : 30, height : 30}} src="src/assets/text.png" alt="" />
-                    <img style={{width : 30, height : 30}}  src="src/assets/typescript.png" alt="" />
+                    <img style={{width : 30, height : 30}} src={css} alt="" />
+                    <img style={{width : 30, height : 30}}  src={typescript} alt="" />
 
 
                     
