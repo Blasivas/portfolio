@@ -2,10 +2,16 @@ import React from 'react';
 import styles from './styles.module.css';
 
 
-export function Main() {
-  return <main className = {styles.main} >
 
-    <section id='inicio'>
+export function Main() {
+  return <main id='inicio' className = {styles.main} >
+
+
+
+
+
+
+    <section >
 
       <h1>
         João Gustavo
@@ -17,6 +23,8 @@ export function Main() {
       <p>
         Desenvolvedor Full-Stack
       </p>
+
+      
 
       <ul>
         <li>

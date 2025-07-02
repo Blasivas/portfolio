@@ -1,24 +1,27 @@
-import React from 'react'
-import {Header} from "./components/Header/Header"
-import {Main} from "./components/Main/Main"
-import { About } from './components/About/About'
+import React, { useState } from "react";
+import { Header } from "./components/Header/Header";
+import { Main } from "./components/Main/Main";
+import { About } from "./components/About/About";
+import { Skills } from "./components/Skills/Skills";
+
 
 export default function App() {
   return (
-    <div className='page'>
-
-      <Header/>
-      
-
-      <Main/>
-
-      <About/>
-      
-      
     
+      <div className="main-template">
+        <Header/>
+        <Main />
       
+        <About />
+     
+
       
+        <Skills />
+      </div>
+
       
-    </div>
-  )
+        
+     
+    
+  );
 }

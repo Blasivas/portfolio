@@ -28,6 +28,11 @@ export function Header() {
           </li>
           </a>
 
+          <a style={active === "skills" ? {borderBottom : "2px solid cyan"} : null} onClick={() => setActive("skills")} href="#skills"><li>
+            skills
+          </li>
+          </a>
+
           <a style={active === "projetos" ? {borderBottom : "2px solid cyan"} : null} onClick={() => setActive("projetos")} href="#projetos"><li>
             projetos
           </li>

@@ -9,16 +9,62 @@ html {
   scroll-behavior: smooth;
 }
 
-.page {
-  min-width: 100vh;
-  width: 100%;
 
-  margin: 0 auto;
+
+
+.container-skills {
+  background-color: #0b0b0b;
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 100vh;
+  width: 100%;
+  align-items: center;
+  gap: 8rem;
+  
+  
+
+
+  h1 {
+    color: white;
+    font-weight: normal;
+    padding-left: 4rem;
+
+  }
+}
+
+.main-template {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  padding-top: 4rem;
+  
+}
 
+.skill-card {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid slategrey;
+  box-shadow: 1px black;
+  filter: drop-shadow(0 0 1.5px #00d8ff);
+
+  img {
+    width: 60px;
+    height: 60px;
+  }
+  
 }
 
 
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 3rem;
+}

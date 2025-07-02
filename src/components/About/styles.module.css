@@ -1,11 +1,13 @@
 .container {
- 
+  
+  min-height: 100vh;
   width: 100%;
-  height: 700px;
   background-color: black;
   display: flex;
   color: white;
   padding-left: 10rem;
+  justify-content: space-around;
+  align-items: center
  
 
    
@@ -16,11 +18,11 @@
     flex-direction: column;
     justify-content: center;
     max-width: 600px;
-    margin-bottom: 8rem;
+   
     
     gap:4px;
     align-items: center;
-    margin-top: 4rem;
+    
     
 
 
