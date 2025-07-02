@@ -29,6 +29,8 @@ main > section {
     
   }
 
+
+
   p {
     font-size: 2rem;
     
@@ -54,6 +56,17 @@ main > section {
     filter: drop-shadow(0 0 8px #00d8ff);
     
   }
+
+  @media (max-width = 768px) {
+
+  h1 {
+
+    font-size: 1rem;
+    padding: 4rem;
+    
+  }
+  
+}
 
 
 .image {
