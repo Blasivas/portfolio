@@ -68,3 +68,39 @@ html {
   grid-template-columns: repeat(3,1fr);
   gap: 3rem;
 }
+
+
+.projects-container {
+    
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  min-height: 100vh;
+  width: 100%;
+  align-items: center;
+  gap: 4rem;
+  
+  
+  
+
+
+  h1 {
+    color: white;
+    font-weight: normal;
+    padding-left: 10rem;
+   
+  
+
+  }
+
+}
+
+.project-container {
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
+ 
+ 
+
+}

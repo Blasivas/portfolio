@@ -7,7 +7,7 @@ import css from "../../assets/text.png"
 import node from "../../assets/nodejs.png"
 import js from "../../assets/js.png"
 
-const skills = [
+export const skills = [
     {
         image : react,
         title : "React"

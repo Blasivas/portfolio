@@ -25,7 +25,9 @@ export function Main() {
       </p>
 
       
-
+      <h1 style={{fontSize : "20px", marginTop : "2rem"}}>
+        Entre em contato
+      </h1>
       <ul>
         <li>
           <a  href="https://github.com/gustavocanepa10" target='_blank' title='GitHub'><img src="src/assets/github.svg" alt="gitHub" /></a>

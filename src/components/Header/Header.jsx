@@ -38,10 +38,7 @@ export function Header() {
           </li>
           </a>
 
-          <a style={active === "contato" ? {borderBottom : "2px solid cyan"} : null} onClick={() => setActive("contato")} href="#contato"><li>
-            contato
-          </li>
-          </a>
+          
 
         </ul>
       </nav>
