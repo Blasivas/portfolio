@@ -9,6 +9,7 @@ import typescript from "../../assets/typescript.png"
 import html from "../../assets/html-5.png"
 import css from "../../assets/text.png"
 import refund from "../../assets/refund.png"
+import js from "../../assets/js.png"
 
 
 
@@ -112,9 +113,9 @@ export function Projects() {
                         
                     <img style={{width : 30, height : 30}} src={react} alt="" />
                     <img style={{width : 30, height : 30}} src={html} alt="" />
-
+                    <img style={{width : 30, height : 30}}  src={js} alt="" />
                     <img style={{width : 30, height : 30}} src={css} alt="" />
-                    <img style={{width : 30, height : 30}}  src={typescript} alt="" />
+                    
 
 
                     
