@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './styles.module.css';
+import react from "../../assets/react-logo.png";
 
 
 
@@ -62,7 +63,7 @@ export function Main() {
       
       <div className= {styles.image}>
 
-        <img src="src/assets/react-logo.png" alt="icone react" />
+        <img src= {react} alt="icone react" />
 
       </div>
 

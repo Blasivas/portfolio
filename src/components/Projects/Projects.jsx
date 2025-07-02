@@ -1,6 +1,10 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
 
+import movie from "../../assets/image-movie.png";
+import keeper from "../../assets/keeper.png";
+import event from "../../assets/event.png";
+
 
 
 
@@ -9,7 +13,7 @@ const projects = [
     name: "EventCheck",
     description:
       "Aplicativo mobile para gerenciamento de eventos com autenticação biométrica, envio de imagens e localização via GPS, além de uma interface moderna.",
-    image : "src/assets/event.png",
+    image : event,
     linkGitHub: "https://github.com/gustavocanepa10/my-app",
   },
   {
@@ -17,7 +21,7 @@ const projects = [
     description:
       "Keeper App é uma aplicação web inspirada no Google Keep, projetada para criar e armazenar notas de forma simples e intuitiva, foi um projeto que aprendi state.",
 
-    image: "src/assets/keeper.png",
+    image: keeper,
     linkDeploy: "https://keeper-two-blue.vercel.app",
     linkGitHub: "https://github.com/gustavocanepa10/keeper",
   },
@@ -27,7 +31,7 @@ const projects = [
       "TheMovieTracker é um projeto prático em que exercitei o consumo de APIs com fetch, o uso da Context API do React e a construção de uma interface moderna.",
     linkGitHub: "https://github.com/gustavocanepa10/TheMovieTracker",
     linkDeploy: "https://the-movie-tracker-psi.vercel.app/",
-    image : "src/assets/image-movie.png"
+    image : movie
   },
 ];
 

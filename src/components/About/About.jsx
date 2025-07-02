@@ -1,5 +1,6 @@
 import React from "react";
-import styles from "./styles.module.css";
+import styles from "./styles.module.css"
+import cafe from "../../assets/cafesemfundo.png"
 
 export function About() {
   return (
@@ -22,7 +23,7 @@ export function About() {
       </section>
 
       <section className = {styles.img}>
-        <img src="src/assets/cafesemfundo.png" alt="" />
+        <img src={cafe} alt="" />
       </section>
     </div>
   );
