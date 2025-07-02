@@ -8,6 +8,7 @@ import react from "../../assets/physics.png"
 import typescript from "../../assets/typescript.png"
 import html from "../../assets/html-5.png"
 import css from "../../assets/text.png"
+import refund from "../../assets/refund.png"
 
 
 
@@ -42,6 +43,14 @@ const projects = [
     linkDeploy: "https://the-movie-tracker-psi.vercel.app/",
     image : movie
   },
+
+  {
+    name : "Refund",
+    image : refund,
+    description : "O Refund é uma aplicação web, feita com o objetivo de ser simples e intuitiva, é destinada a facilitar o processo de solicitação de reembolsos.",
+    linkGitHub : "https://github.com/gustavocanepa10/Refund",
+    linkDeploy : "https://refund-nine.vercel.app/"
+  }
 ];
 
 export function Projects() {
@@ -101,7 +110,7 @@ export function Projects() {
                     <p style={{fontSize : "16px"}}>Stack utilizada:</p>
                     <div style={{display : "flex", marginTop :" 0.5rem"}}>
                         
-                        <img style={{width : 30, height : 30}} src={react} alt="" />
+                    <img style={{width : 30, height : 30}} src={react} alt="" />
                     <img style={{width : 30, height : 30}} src={html} alt="" />
 
                     <img style={{width : 30, height : 30}} src={css} alt="" />
@@ -135,6 +144,7 @@ export function Projects() {
                   gap: 4,
                   padding: "6px",
                   alignItems: "center",
+                  
                  
                 }}
               >
