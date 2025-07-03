@@ -23,7 +23,7 @@ export function About() {
       </section>
 
       <section className = {styles.img}>
-        <img src={cafe} alt="" />
+        <img className="img" src={cafe} alt="" />
       </section>
     </div>
   );

@@ -71,7 +71,7 @@ export function Main() {
       
       <div className= {styles.image}>
 
-        <img src= {react} alt="icone react" />
+        <img className='img' src= {react} alt="icone react" />
 
       </div>
 
