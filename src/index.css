@@ -9,6 +9,11 @@ html {
   scroll-behavior: smooth;
 }
 
+body{
+  overflow-x: hidden;
+  
+}
+
 
 
 
@@ -22,20 +27,20 @@ html {
   gap: 8rem;
   
   
-
-
+  
+  
   h1 {
     color: white;
     font-weight: normal;
     padding-left: 4rem;
-
+    
   }
 }
 
 .main-template {
   width: 100%;
   min-height: 100vh;
-  
+
   
   
 }

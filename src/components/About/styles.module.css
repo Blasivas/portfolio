@@ -51,13 +51,14 @@
   display: flex;
   align-items: center;
   margin-bottom: 2rem;
-  animation: move 30s linear infinite;
+  animation: move 90s linear infinite;
   padding: 10px;
   margin-right: 4rem;
 
   img {
-    width: 30rem;
-    height: max-content;
+    width: 26rem;
+    height: 26rem;
+    object-fit: cover;
     margin-left: 4rem;
     filter: drop-shadow(0 0 8px #00d8ff);
 
@@ -71,7 +72,7 @@
   }
 
   to {
-    transform: rotate(120deg);
+    transform: rotate(360deg);
   }
 }
 
